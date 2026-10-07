@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-1-week-5",
+  "version": "1.0.0",
+  "description": "Today",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SNOWEST2312/Full-stack-1-Week-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SNOWEST2312/Full-stack-1-Week-5/issues"
+  },
+  "homepage": "https://github.com/SNOWEST2312/Full-stack-1-Week-5#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
