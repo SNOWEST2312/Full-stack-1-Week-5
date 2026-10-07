@@ -1,6 +1,14 @@
 {
   "name": "Mi Codespace Web",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Express",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "npm install",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -47,15 +55,7 @@
         "html.css.support": true,
         "eslint.validate": ["javascript", "html", "css"],
         "liveServer.settings.port": 5500,
-        "liveServer.settings.donotShowInfoMsg": true,
-        "github.copilot.enable": {
-          "*": false,
-          "plaintext": false,
-          "markdown": false,
-          "scminput": false
-        },
-        "github.copilot.chat.enabled": false,
-        "github.copilot.nextEditSuggestions.enabled": false
+        "liveServer.settings.donotShowInfoMsg": true
       }
     }
   }

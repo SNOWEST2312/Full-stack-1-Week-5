@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Hello Form Handling in Express!</h1>
+
+    <form metghod="POST" action="/registration">
+      <label>
+        Your Last Name:
+        <input type="text" name="lastName" />
+      </label>
+      <label>
+        Your student number:
+        <input type="number" name="studentNumber" />
+      </label>
+      <fieldset>
+        <legend>Course</legend>
+        <label>
+          WMDD 4936
+          <input type="radio" name="courseNumber" value="4936" checked />
+        </label>
+        <label>
+          WMDD 4921
+          <input type="radio" name="courseNumber" value="4921" />
+        </label>
+      </fieldset>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
