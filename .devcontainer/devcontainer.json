@@ -1,0 +1,62 @@
+{
+  "name": "Mi Codespace Web",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "aaron-bond.better-comments",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.jquerysnippets",
+        "ecmel.vscode-html-css",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "pkief.material-icon-theme",
+        "rendinjast.amoled-black",
+        "ritwickdey.liveserver",
+        "vincaslt.highlight-matching-tag",
+        "xabikos.javascriptsnippets",
+        "zignd.html-css-class-completion"
+      ],
+      "settings": {
+        "workbench.colorTheme": "AMOLED Black",
+        "workbench.iconTheme": "material-icon-theme",
+        "editor.fontSize": 14,
+        "editor.fontFamily": "'Cascadia Code', 'Fira Code', Consolas, monospace",
+        "editor.fontLigatures": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.linkedEditing": true,
+        "editor.inlineSuggest.enabled": true,
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": "active",
+        "prettier.singleQuote": true,
+        "prettier.semi": true,
+        "prettier.trailingComma": "es5",
+        "prettier.printWidth": 100,
+        "prettier.tabWidth": 2,
+        "prettier.useTabs": false,
+        "emmet.triggerExpansionOnTab": true,
+        "emmet.showExpandedAbbreviation": "always",
+        "css.validate": true,
+        "html.css.support": true,
+        "eslint.validate": ["javascript", "html", "css"],
+        "liveServer.settings.port": 5500,
+        "liveServer.settings.donotShowInfoMsg": true,
+        "github.copilot.enable": {
+          "*": false,
+          "plaintext": false,
+          "markdown": false,
+          "scminput": false
+        },
+        "github.copilot.chat.enabled": false,
+        "github.copilot.nextEditSuggestions.enabled": false
+      }
+    }
+  }
+}
